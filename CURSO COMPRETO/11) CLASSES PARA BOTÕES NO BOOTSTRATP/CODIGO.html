@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      *{
+        text-align: center;
+      }
+      h1,h2,h3{
+        margin: 40px;
+      }
+      h2,h3{
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <div class="container-fluid row bg-primary">
+
+      <h2>Utilizando a classe btn-nomedacor para cor de fundo nos botões</h2>
+
+      <div class="container-fluid col bg-white my-3 p-3">
+        <button class="btn">Normal</button>
+        <button class="btn btn-primary">Primário</button>
+        <button class="btn btn-secondary">Secundário</button>
+        <button class="btn btn-success">Sucesso</button>
+        <button class="btn btn-info">Informação</button>
+      </div>
+
+      <div class="container-fluid col bg-white my-3 p-3">
+        <button class="btn btn-warning">Alerta</button>
+        <button class="btn btn-danger">Perigo</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">Link</button>
+      </div>
+
+      <h2>Utilizando a classe btn-outline-nomedacor para borda e letras com a cor e fundo no efeito hover</h2>
+
+      <div class="container-fluid col bg-white my-3 p-3">
+        <button class="btn">Normal</button>
+        <button class="btn btn-outline-primary">Primário</button>
+        <button class="btn btn-outline-secondary">Secundário</button>
+        <button class="btn btn-outline-success">Sucesso</button>
+        <button class="btn btn-outline-info">Informação</button>
+      </div>
+
+      <div class="container-fluid col bg-white my-3 p-3">
+        <button class="btn btn-outline-warning">Alerta</button>
+        <button class="btn btn-outline-danger">Perigo</button>
+        <button class="btn btn-outline-dark">Dark</button>
+        <button class="btn btn-outline-light">Light</button>
+        <button class="btn btn-outline-link">Link</button>
+      </div>
+
+    </div>
+
+    <div class="container-fluid bg-primary">
+
+      <h2>Configurando tamanho dos botões, respectivamente pequeno, médio e grande<br> usando as classes btn-sm, btn-md e btn-lg</h2>
+
+      <div class="container-fluid bg-white my-3 p-3">
+        <button class="btn btn-primary btn-sm">CFB Cursos</button>
+        <button class="btn btn-secondary btn-md">CFB Cursos</button>
+        <button class="btn btn-success btn-lg">CFB Cursos</button>
+      </div>
+
+      <h3>Utilizando a classe btn-block, nela toda vez que clicamos ele permanece com uma borda como se permanecesse selecionado. <br><br>
+      observe também o atributo disabled na tag button do ultimo exemplo, ela desabilita o botão bem como o estiliza de maneira a mostrar isso, funciona tanto como classe de bootstrap como atributo de html. A classe active mostra o botão como se ele já estivesse selecionado.</h3>
+
+      <div class="container-fluid bg-white my-3 p-3">
+        <button class="btn btn-primary btn-block active">CFB Cursos</button>
+        <button class="btn btn-secondary btn-no-block disabled">CFB Cursos</button> <!-- observe os códigos para active e disabled -->
+        <button class="btn btn-success btn-no-block" disabled>CFB Cursos</button>
+      </div>
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

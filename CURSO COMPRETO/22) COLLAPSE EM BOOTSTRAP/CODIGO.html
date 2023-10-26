@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Abaixo temos a estrutura de collapse, ao clicar no botão ele escoderá o texto.</h3>
+
+    <button data-bs-toggle="collapse" data-bs-target="#cfbcursos">CFB Cursos</button>
+    <div id="cfbcursos">
+        youtube.com/cfbcursos = Canal com cursos de programação.
+    </div>
+
+    <h3>No novo exemplo abaixo adicionamos a classe collapse na div com o texto de resultado, assim o documento começa com o texto escondido e aparecerá caso ele seja clicado.</h3>
+    <button data-bs-toggle="collapse" data-bs-target="#cfbcursos1">CFB Cursos</button>
+    <div id="cfbcursos1" class="collapse">
+        youtube.com/cfbcursos = Canal com cursos de programação.
+    </div>
+
+    <h3>Abaixo o mesmo mas estilizando.</h3>
+
+    <button class="btn bg-success" data-bs-toggle="collapse" data-bs-target="#cfbcursos2">CFB Cursos</button>
+    <div id="cfbcursos2" class="collapse bg-primary border rounded p-4">
+        youtube.com/cfbcursos = Canal com cursos de programação.
+    </div>
+
+    <h3>Nesse exemplo colocamos um collapse ao lado do outro, **IMPORTANTE**: Para o bom funcionamento devemos adicionar todos os buttons no documento html e só depois as divs com seus respectivos collapses.</h3>
+
+    <button class="btn bg-success" data-bs-toggle="collapse" data-bs-target="#cfbcursos3">CFB Cursos</button>
+    <button class="btn bg-success" data-bs-toggle="collapse" data-bs-target="#cfbcursos4">CFB Cursos</button>
+    <div id="cfbcursos3" class="collapse bg-primary border rounded p-4">
+        youtube.com/cfbcursos = Canal com cursos de programação.
+    </div>
+    <div id="cfbcursos4" class="collapse bg-primary border rounded p-4">
+      youtube.com/cfbcursos = Canal com cursos de programação.
+    </div>
+
+    <h3>Por fim podemos usar a tag a(de link) em vez da tag button para criar os collapses, nesse caso não usaremos o atributo data-bs-target e o id da div em questão do collapse será referenciada no proprio href do link a.</h3>
+
+    <a href="#cfbcursos5" class="btn" data-bs-toggle="collapse">CFBCursos</a>
+    <div id="cfbcursos5" class="collapse bg-danger">youtube.com/cfbcursos = Canal com cursos de programação.</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

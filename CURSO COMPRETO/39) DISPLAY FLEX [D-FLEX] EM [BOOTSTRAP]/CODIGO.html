@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Faremos aqui exemplificação de como funciona a classe d-flex (equivalente ao CSS display: flex;) <br>
+        primeiro vamos mostrar o exemplo sem a utilização da classe: </h3>
+
+    <div class="p-2" style="background-color: #ddd;">
+        <div class="bg-primary">CFB Cursos</div>
+        <div class="bg-danger">CFB Cursos</div>
+        <div class="bg-warning">CFB Cursos</div>
+        <div class="bg-info">CFB Cursos</div>
+    </div>
+
+    <h3>Agora abaixo incluindo a classe d-flex.</h3>
+
+    <div class="p-2 d-flex" style="background-color: #ddd;">
+        <div class="bg-primary">CFB Cursos</div>
+        <div class="bg-danger">CFB Cursos</div>
+        <div class="bg-warning">CFB Cursos</div>
+        <div class="bg-info">CFB Cursos</div>
+    </div>
+
+    <h3>Agora abaixo incluindo a classe d-inline-flex.</h3>
+
+    <div class="p-2 d-inline-flex" style="background-color: #ddd;">
+        <div class="bg-primary">CFB Cursos</div>
+        <div class="bg-danger">CFB Cursos</div>
+        <div class="bg-warning">CFB Cursos</div>
+        <div class="bg-info">CFB Cursos</div>
+    </div>
+
+    <h3>Agora abaixo incluindo a classe flex-row-reverse,<br>observe que a ordem dos elementos também foi invertida
+        eles não foram apenas para o final.</h3>
+
+    <div class="p-2 d-flex flex-row-reverse" style="background-color: #ddd;">
+        <div class="bg-primary">CFB Cursos</div>
+        <div class="bg-danger">CFB Cursos</div>
+        <div class="bg-warning">CFB Cursos</div>
+        <div class="bg-info">CFB Cursos</div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

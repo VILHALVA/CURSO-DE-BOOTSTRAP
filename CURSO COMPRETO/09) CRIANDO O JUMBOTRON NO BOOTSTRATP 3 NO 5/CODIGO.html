@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="jumbotron" class="container bg-primary text-white p-4 rounded my-4">
+      <h1>CFB Cursos - Curso de Bootstrap</h1> <hr/>
+      <h2>Utilizando o <mark>Jumbotron</mark></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, labore dolorem mollitia amet fugiat architecto illo molestias iusto repellendus. Dignissimos laboriosam nobis culpa dolor minima hic? Vero quod itaque rerum dolor quam porro cumque maxime accusamus, ipsum sint suscipit quisquam, officiis esse voluptates quis totam excepturi. Consectetur consequuntur qui molestiae.</p>
+    </div>
+
+    <div class="container">
+      <button onclick="document.getElementById('jumbotron').classList.remove('invisible')">Mostrar</button>
+      <button onclick="document.getElementById('jumbotron').classList.add('invisible')">Ocultar</button>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+    <script>
+      var divJumbotron=document.getElementById('jumbotron')
+      divJumbotron.addEventListener('click',clicou)
+      function clicou(){
+        window.alert('clicou')
+        divJumbotron.style.backgroundColor='red'      
+      }
+    </script>
+  </body>
+</html>

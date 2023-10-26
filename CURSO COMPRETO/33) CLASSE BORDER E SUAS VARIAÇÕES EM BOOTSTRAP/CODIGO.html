@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+      .quadrado{
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin: 8px;
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Abaixo teremos diversos exemplos de como funciona a classe border em bootstrap, confira no código HTML onde todos os exemplos estarão comentados.</h3>
+
+    <div class="quadrado border"></div>
+
+    <div class="quadrado border-0"></div> <!-- a classe border-0 elimina a borda. -->
+
+    <div class="quadrado border-top-0 border-bottom-0"></div> <!-- Nesse caso apenas as bordas de cima e de baixo serão eliminados, evolução da classe border-0 -->
+
+    <div class="quadrado border border-3"></div> <!-- Essa classe aumenta a espessura da borda em nível 3 , existem outros níveis -->
+
+    <div class="quadrado border border-dark"></div> <!-- Agora adicionando cor à borda, lembrando que todas as cores tradicionais do bootstrap estarão disponíveis-->
+
+    <div class="quadrado border-top border-danger border-5"></div> <!-- Usamos a classe border-top para adicionar borda apenas na parte de cima da div, ***perceba que não foi adicionada a classe border, apenas a border-top -->
+
+    <div class="quadrado border-bottom border-success"></div> <!-- Exatamente igual ao exemplo acima, só que agora apenas a borda de baixo. -->
+
+    <div class="quadrado border border-start-0 border-end-0 border-4 border-info"></div> <!-- Excluindo as bordas da esquerda e da direita-->
+
+    <div class="quadrado border rounded border-secondary"></div> <!-- Incluímos agora arrendondamento nas bordas por meio da classe rounded (em conjunto com a classe border)-->
+
+    <div class="quadrado border rounded-start border-alert border-4 border-warning"></div> <!-- a classe rouned-start faz o arredondamento apenas no lado esquerdo. rounded-end deixa arredondado apenas o lado direito. -->
+
+    <div class="quadrado border rounded-top border-dark border-3"></div> <!-- rounded-top para arrendondar apenas a borda de cima, rounded-bottom arrendonda apenas a borda de baixo.-->
+
+    <div class="quadrado border rounded-circle border-3 border-dark"></div> <!-- Agora com a classe rounded-circle a borda ficará completamente arredondada. -->
+
+    <div class="quadrado border rounded-pill border-2 border-primary"></div> <!-- Classe rounded-pill para bordas em formato de pills (pílulas) -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

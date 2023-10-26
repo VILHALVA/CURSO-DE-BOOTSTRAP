@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Menu Sandwich em Bootstrap com barra de pesquisa, basicamente a barra de pesquisa é apenas um input text a ser colocado na barra de menu com o botão submit acompanhado.</h3>
+
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="imagens/2918581.png" alt="logo bootstrap" style="width: 50px;"></a>
+
+            <form class="d-flex"> <!-- Display flex fará com que o botão fique ao lado do formulário -->
+                <input type="text" name="pesquisa" id="ipesquisa" class="form-control m-2">
+                <button class="btn btn-light m-2">Pesquisar</button>
+            </form>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCursos" style="cursor:pointer" aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="menuCursos">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Arduino</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bootstrap</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">React Native</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

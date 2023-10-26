@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+      h4{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h2>IMPORTANTE!! O link para utilização do video não é no compartilhar, mas sim na opção incorporar do youtube.</h2>
+
+    <h3>Utilização de aspect ratio, para isso usamos a classe ratio seguida de uma das seguintes opções: ratio-1x1, ratio-4x3, ratio-16x9 e ratio-21x9, todas essas classes na div que envolvem o iframe em questão.</h3>
+    <h3>A utilização dessa classe vai escolher qual será o formato da tela a ser utilizado para o vídeo, padrao é 16x9</h3>
+
+    <h4>classe ratio-1x1</h4>
+    <div class="container-fluid">
+        <div class="border border-1 border-dark ratio ratio-1x1">
+            <iframe src="https://www.youtube.com/embed/oRVBoGpgtu0" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <h4>classe ratio-4x3</h4>
+    <div class="container">
+        <div class="border border-1 border-dark ratio ratio-4x3">
+            <iframe src="https://www.youtube.com/embed/oRVBoGpgtu0" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <h4>classe ratio 16x9 (padrão)</h4>
+    <div class="container">
+        <div class="border border-1 border-dark ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/oRVBoGpgtu0" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <h4>classe ratio 21x9 (padrão)</h4>
+    <div class="container">
+        <div class="border border-1 border-dark ratio ratio-21x9">
+            <iframe src="https://www.youtube.com/embed/oRVBoGpgtu0" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

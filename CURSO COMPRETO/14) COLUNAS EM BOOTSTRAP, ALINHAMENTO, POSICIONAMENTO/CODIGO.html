@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Abaixo temos a tabela criada em sua forma padrão que usa a classe align-items-strecht como padrao</h3>
+
+    <div class="container-fluid bg-white p-2">
+      <div class="row align-items-strecht bg-primary m-2 p-2" style="height: 100px;"> <!-- observe na visualizacao no navegador que a primeira linha esta igual as duas-->
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>                 <!-- proximas linhas que nao possuem a classe align-items-strecht, logo ela eh a -->
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>                 <!-- padrao para esse tipo de configuracao -->
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+      <div class="row bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+      <div class="row bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+    </div>
+
+    <h3>Agora temos a configuração feita começando com align-items-start, depois align-items-center e por fim align-items-end, <br><br> na última linha (amarela) mostramos que o mesmo efeito pode ser utilizada também em cada elemento da linha de maneira independente, so que nesse caso utilizaremos as classes align-self-start, align-self-center e align-self-end.</h3>
+
+    <div class="container-fluid bg-white p-2">
+      <div class="row align-items-start bg-primary m-2 p-2" style="height: 100px;"> 
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>                 
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>                 
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+      <div class="row align-items-center bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+      <div class="row align-items-end bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 2</div>
+        <div class="col bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+      <div class="row bg-warning m-2 p-2" style="height: 100px;">
+        <div class="col align-self-start bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col align-self-center bg-white bg-opacity-50 border">Coluna 2</div>
+        <div class="col align-self-end bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+    </div>
+
+    <h3>Agora faremos o alinhamento horizontal dos itens, utilizando as classes justify-content-start, justify-content-center e justify-content-end <br><br> no CONTAINER da LINHA que envolve os elementos.</h3>
+
+    <div class="container-fluid bg-white p-2">
+      <div class="row justify-content-start bg-primary m-2 p-2" style="height: 100px;"> 
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 1</div>                 
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 2</div>                 
+      </div>
+      <div class="row justify-content-center bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 2</div>
+      </div>
+      <div class="row justify-content-end bg-primary m-2 p-2" style="height: 100px;">
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 1</div>
+        <div class="col-3 bg-white bg-opacity-50 border">Coluna 2</div>
+      </div>
+    </div>
+
+    <h3>Podemos também alterar a ordem das colunas por meio de uma classe chamada order, em que colocamos no elemento por exemplo a classe order-2 e order-3 e então ele passará a se inverter em posições.</h3>
+
+    <div class="container-fluid bg-white p-2">
+      <div class="row align-items-strecht bg-primary m-2 p-2" style="height: 100px;"> 
+        <div class="col bg-white bg-opacity-50 border">Coluna 1</div>                 
+        <div class="col order-3 bg-white bg-opacity-50 border">Coluna 2</div>                 
+        <div class="col order-2 bg-white bg-opacity-50 border">Coluna 3</div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

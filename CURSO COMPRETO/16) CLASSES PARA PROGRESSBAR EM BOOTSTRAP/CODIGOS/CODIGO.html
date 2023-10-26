@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        h1,h2{
+            margin: 50px 0px 50px 0px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h2>Segue abaixo o modelo básico da barra de progresso, utilizamos três divs, uma para controlar o tamanho da barra, outra é a barra em si e a outra controla o percentual da barra por meio do style="width: x%;" como atributo desta última div.</h2>
+    <div class="container">
+        <div class="progress" style="height: 30px;">
+            <div id="pb1" class="progress-bar bg-danger" style="width: 50%;"></div>
+        </div>
+    </div>
+    <br>
+
+    <h2>Estilização usando a classe progress-bar-striped na div da progress-bar</h2>
+    <div class="container">
+        <div class="progress" style="height: 50px;">
+            <div id="pb2" class="progress-bar bg-alert progress-bar-striped" style="width: 50%;">50%</div>
+        </div>
+    </div>
+    <br>
+
+    <h2>Estilização usando a classe progress-bar-striped em conjunto com a progress-bar-animated na div da progress-bar</h2>
+    <div class="container">
+        <div class="progress" style="height: 50px;">
+            <div id="pb3" class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+        </div>
+    </div>
+    <br>
+
+    <h2>Estilização usando barras múltiplas, dentro da div progress podemos incluir varias divs progress-bar que terão o efeito de se somarem em uma barra única.</h2>
+    <div class="container">
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-danger" style="width: 30%;">30%</div>
+            <div class="progress-bar bg-alert" style="width: 20%;">20%</div>
+            <div class="progress-bar bg-success" style="width: 10%;">10%</div>
+            <div class="progress-bar bg-dark" style="width: 15%;">15%</div>
+        </div>
+    </div>
+    <br>
+
+    <script>
+        let barra=document.getElementById("pb1")
+        let carga=0
+        let intBarra=setInterval(()=>{
+            barra.innerHTML=carga+"%"
+            barra.style.width=carga+"%"
+            carga++
+            if (carga>=100)
+                carga=0
+        },250)
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

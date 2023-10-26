@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFB Cursos - Curso de Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      *{
+        text-align: center;
+      }
+      h1,h2,h3{
+        margin: 20px 0px 20px 0px;
+      }
+      h3{
+        background-color: burlywood;
+        margin-bottom: 50px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body class="bg-primary">
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <div class="container-fluid bg-white my-3 p-3">
+
+      <div>
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <h3>Adicionamos a classe btn-group na div que contém os botões abaixo de modo que eles passem a formar um grupo de botões,<br>
+          veja a diferença entre o de cima e o de baixo </h3>
+
+      <div class="btn-group">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <h3 class="border border-dark">Abaixo utilizamos as classes btn-group-lg, btn-group-sm nas divs que envolvem os botões para alterar o tamanho do grupo de botões, lembrando sempre que deve ser utilizado em conjunto com a classe btn-group para que funcione</h3>
+
+      <div class="btn-group btn-group-lg">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <div class="btn-group btn-group-sm">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <h3 class="border border-dark">Abaixo utilizamos a classe btn-group-vertical nas divs que envolvem os botões para colocar os botões na vertical, neste caso substituimos o btn-group por btn-group-vertical nas classes</h3>
+
+      <div class="btn-group-vertical btn-group-lg">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <div class="btn-group-vertical btn-group-sm">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <button class="btn btn-primary">JavaScript</button>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+      <h3 class="border border-dark">Neste caso utilizaremos o grupo de botões para criar menus expansivos com o uso das classes dropdown-toggle e dropdown-menu</h3>
+
+      <div class="btn-group" style="margin-bottom: 200px;">
+        <button class="btn btn-primary">HTML</button>
+        <button class="btn btn-primary">CSS</button>
+        <div class="btn-group">
+          <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">JavaScript</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Variáveis</a>
+            <a href="#" class="dropdown-item">Condicionais</a>
+            <a href="#" class="dropdown-item">Console</a>
+          </div>
+        </div>
+        <button class="btn btn-primary">Bootstrap</button>
+        <button class="btn btn-primary">React</button>
+      </div>
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

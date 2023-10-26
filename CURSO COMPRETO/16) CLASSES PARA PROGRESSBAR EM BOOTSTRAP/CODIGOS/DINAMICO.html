@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Progresso Animada com JavaScript</title>
+
+    <!-- Inclua os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2>Barra de Progresso Animada com JavaScript</h2>
+
+        <div class="progress">
+            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <div id="progress-text">Progresso: 0%</div>
+        
+        <button id="start-button" class="btn btn-primary">Iniciar</button>
+    </div>
+
+    <!-- Inclua o arquivo JavaScript para a lógica da barra de progresso -->
+    <script>
+        // Elementos da barra de progresso e do contador
+        const progressBar = document.getElementById('progress-bar');
+        const progressText = document.getElementById('progress-text');
+
+        // Botão de início
+        const startButton = document.getElementById('start-button');
+
+        // Valor inicial da barra de progresso
+        let progressValue = 0;
+
+        // Função para atualizar a barra de progresso e o contador
+        function updateProgress() {
+            if (progressValue < 100) {
+                progressValue += 1;
+                progressBar.style.width = progressValue + '%';
+                progressText.textContent = 'Progresso: ' + progressValue + '%';
+
+                // Agendamento para atualização contínua
+                setTimeout(updateProgress, 100);
+            }
+        }
+
+        // Lidar com o clique no botão Iniciar
+        startButton.addEventListener('click', function () {
+            // Iniciar a barra de progresso
+            updateProgress();
+        });
+    </script>
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap (incluindo a dependência do Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
