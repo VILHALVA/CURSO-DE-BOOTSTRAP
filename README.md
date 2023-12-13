@@ -3,7 +3,8 @@
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=Bootstrap)
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://getbootstrap.com/docs/5.3/getting-started/introduction/) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-MARCAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLx4x_zx8csUgop9qBqm6ReuNa3XraZBrc&si=-dTQXKJyfgC5zBGR)
 
