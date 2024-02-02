@@ -1,12 +1,9 @@
 # CURSO DE BOOTSTRAP
 👨‍⚖️BOOTSTRAP É UM FRAMEWORK DE CÓDIGO ABERTO DESENVOLVIDO PELO TWITTER QUE PERMITE A CRIAÇÃO RÁPIDA E FÁCIL DE INTERFACES WEB RESPONSIVAS. ELE FORNECE UM CONJUNTO DE ESTILOS, COMPONENTES E UTILITÁRIOS CSS PRÉ-DEFINIDOS, ALÉM DE UM CONJUNTO DE PLUGINS JAVASCRIPT, QUE AJUDAM A CRIAR LAYOUTS E ELEMENTOS INTERATIVOS DE FORMA CONSISTENTE E EFICIENTE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-MARCAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS) 
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLx4x_zx8csUgop9qBqm6ReuNa3XraZBrc&si=-dTQXKJyfgC5zBGR)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
+## CONCEITO:
 **Bootstrap** é um framework de código aberto desenvolvido pelo Twitter que simplifica e acelera o processo de criação de sites e aplicativos da web. Ele é projetado para ser responsivo, o que significa que os sites construídos com Bootstrap se ajustam automaticamente ao tamanho da tela do dispositivo em que estão sendo visualizados, proporcionando uma experiência consistente em computadores, tablets e smartphones.
 
 Aqui estão alguns conceitos-chave associados ao Bootstrap:
@@ -27,8 +24,8 @@ Aqui estão alguns conceitos-chave associados ao Bootstrap:
 
 Bootstrap é amplamente utilizado na indústria de desenvolvimento web devido à sua facilidade de uso e à capacidade de criar sites modernos e responsivos de forma eficaz. À medida que você avança em seu curso de Bootstrap, é importante explorar esses conceitos em mais detalhes e praticar a criação de páginas da web usando este framework.
 
-# CARACTERISTICAS:
-## Características Positivas:
+## CARACTERISTICAS:
+### POSITIVAS:
 1. **Facilidade de Uso**: Uma das maiores vantagens do Bootstrap é sua facilidade de uso. É relativamente simples de aprender e permite que desenvolvedores criem rapidamente layouts e componentes responsivos.
 
 2. **Grid System Responsivo**: O sistema de grade do Bootstrap simplifica a criação de layouts responsivos, adaptando automaticamente o conteúdo a diferentes tamanhos de tela, economizando tempo no desenvolvimento para dispositivos móveis.
@@ -41,7 +38,7 @@ Bootstrap é amplamente utilizado na indústria de desenvolvimento web devido à
 
 6. **Personalização**: O Bootstrap permite que você crie temas personalizados e modifique variáveis CSS para adaptar o design às necessidades do seu projeto.
 
-## Características Negativas:
+### NEGATIVAS:
 1. **Design Genérico**: Um dos principais pontos negativos do Bootstrap é que os sites criados com ele podem parecer genéricos, a menos que você personalize significativamente o estilo. Isso ocorre porque muitos sites utilizam o mesmo conjunto padrão de classes CSS do Bootstrap.
 
 2. **Código Inchado**: Ao incluir a biblioteca completa do Bootstrap em seu projeto, você pode acabar com um código CSS e JavaScript mais pesado do que o necessário, o que pode afetar o desempenho.
@@ -53,3 +50,9 @@ Bootstrap é amplamente utilizado na indústria de desenvolvimento web devido à
 5. **Tamanho do Download**: A biblioteca do Bootstrap pode ser grande em tamanho, o que pode aumentar o tempo de carregamento da página, principalmente em conexões lentas ou dispositivos móveis.
 
 Em resumo, o Bootstrap é uma ferramenta poderosa para o desenvolvimento web, mas suas características positivas e negativas devem ser consideradas ao decidir se é a escolha certa para um projeto específico. A personalização cuidadosa e a otimização podem ajudar a mitigar muitas das desvantagens do Bootstrap, tornando-o uma opção viável para muitos desenvolvedores.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "CFB CURSOS"](https://youtube.com/playlist?list=PLx4x_zx8csUgop9qBqm6ReuNa3XraZBrc&si=-dTQXKJyfgC5zBGR)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
