@@ -74,4 +74,5 @@ Em resumo, o Bootstrap é uma ferramenta poderosa para o desenvolvimento web, ma
 - [VEJA A DOCUMENTAÇÃO](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:BOOTSTRAP)
